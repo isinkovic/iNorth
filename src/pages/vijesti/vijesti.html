@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    
+  </ion-navbar>
+  
+</ion-header>
+
+<ion-content padding>
+  <div class="status0"></div>
+  <ion-list>
+    <ion-item *ngFor="let article of articles">
+      <img src="{{article.urlToImage1}}" [navPush]="article1Page"/>
+      <img src="{{article.urlToImage}}" class="article-pic2"/>
+      <div class="naslov-clanka" [navPush]="article2Page">{{article.title2}}</div>
+      <div class="naslov-clanka" [navPush]="article3Page">{{article.title3}}</div>
+      <div class="naslov-clanka" [navPush]="article4Page">{{article.title4}}</div>
+      <div class="naslov-clanka" [navPush]="article5Page">{{article.title5}}</div>
+      <div class="datum-clanka">{{article.publishedAt}}</div>
+      <div class="izvor-clanka">IZVOR: <a href="https://www.unin.hr/"><span style="color:#C22929;"><b>{{article.source}}</b></span></a></div>
+      <div class="naslov-clanka1" [navPush]="article1Page">{{article.title1}}</div>
+    </ion-item>
+  </ion-list>
+</ion-content>

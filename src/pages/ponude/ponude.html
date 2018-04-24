@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+   
+  </ion-navbar>
+  
+</ion-header>
+
+<ion-content padding class="ion-content">
+  <div class="status3"></div>
+  <ion-list>
+    <ion-item *ngFor="let offer of offers">
+      <div class="naslov-savjeta">{{offer.title}}</div><br>
+      <div class="datum-savjeta">{{offer.publishedAt}}</div>
+      <div class="izvor-savjeta">IZVOR: <a href="http://studentski.hr/"><span style="color:#6F369C;"><b>{{offer.source}}</b></span></a></div>
+    </ion-item>
+  </ion-list> 
+ </ion-content>

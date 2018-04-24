@@ -1,0 +1,17 @@
+<ion-tabs tabsPlacement="top">
+  <ion-tab [root]="tab1Root" tabTitle="Vijesti" tabIcon="ios-paper" md="md-paper" id="tab-t0-0"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Lifestyle" tabIcon="ios-cafe" md="ios-cafe-outline" id="tab-t0-1"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Događaji" tabIcon="ios-calendar" md="md-calendar" id="tab-t0-2"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="Ponude" tabIcon="ios-pricetag" md="md-pricetag" id="tab-t0-3"></ion-tab>
+</ion-tabs>
+<ion-header class="header header-md">
+  <ion-navbar class="toolbar toolbar-md">
+    <ion-title class="toolbar-title toolbar-title-md title title-md">iNorth</ion-title>
+    <ion-buttons left>
+      <button ion-button icon-only [navPush]="impressumPage">
+        <ion-icon name="ios-information-circle" md="ios-information-circle-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  
+</ion-header>

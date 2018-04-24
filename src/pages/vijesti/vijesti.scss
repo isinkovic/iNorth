@@ -1,0 +1,42 @@
+page-home {
+.naslov-clanka1 {
+    font-family: "Roboto-Black" !important;
+    color: #474747;
+    font-size: 12pt;
+    height: auto;
+    white-space: normal;
+}
+.naslov-clanka {
+    font-family: "Roboto-Black" !important;
+    color: #474747;
+    font-size: 11pt;
+    height: auto;
+    white-space: normal;
+}
+.datum-clanka {
+    font-family: "Raleway-Medium";
+    color: #828282;
+    font-size: 8pt;
+    display: inline-block;
+}
+.izvor-clanka {
+    font-family: "Raleway-Medium";
+    color: #828282;
+    font-size: 8pt;
+    padding-left: 10px;
+    display: inline-block;
+}
+a:link {
+    text-decoration: none;
+}
+.article-pic2 {
+    width: 80px;
+    height: 80px;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+}

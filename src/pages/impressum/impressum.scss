@@ -1,0 +1,30 @@
+page-impressum {
+    .zaglavlje {
+        height: 30px;
+        position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+         /* Stay at the top */
+        left: 0;
+        background-color: white;
+    }
+    .navigacija {
+        height: 25px;
+        border-color: #b2b2b2;
+        box-shadow: 0 2px 7px lightgrey;
+        padding: 4px 15px;
+    }
+    .naslov {
+        font-size: 12pt;
+        color: #828282;
+        padding-left: 20px;
+    }
+    .impresum {
+        font-family: "Roboto" !important;
+        font-size: 12pt;
+        color: #8A8A8A;
+        line-height: 30px;
+    }
+    .slika {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+   
+  </ion-navbar>
+  
+</ion-header>
+
+<ion-content padding>
+  <div class="status1"></div>
+  <ion-list>
+    <ion-item *ngFor="let advice of advices">
+      <img src="{{advice.urlToImage1}}" [navPush]="advice1Page"/>
+      <img src="{{advice.urlToImage}}" class="article-pic2"/>
+      <div class="naslov-savjeta" [navPush]="advice2Page">{{advice.title2}}</div>
+      <div class="naslov-savjeta" [navPush]="advice3Page">{{advice.title3}}</div>
+      <div class="naslov-savjeta" [navPush]="advice4Page">{{advice.title4}}</div>
+      <div class="naslov-savjeta" [navPush]="advice5Page">{{advice.title5}}</div>
+      <div class="datum-savjeta">{{advice.publishedAt}}</div>
+      <div class="izvor-savjeta">IZVOR: <a href="http://studentski.hr/"><span style="color:#219653;"><b>{{advice.source}}</b></span></a></div>
+      <div class="naslov-savjeta1" [navPush]="advice1Page">{{advice.title1}}</div>
+    </ion-item>
+  </ion-list>
+ </ion-content>
